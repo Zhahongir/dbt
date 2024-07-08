@@ -1,0 +1,82 @@
+.dbt {
+    position: relative;
+    padding-top: 50px;
+    &__wrap {
+        position: relative;
+        z-index: 10;
+        &__content {
+            margin-top: 30px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 40px;
+            border-radius: 32px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 2.75px 2.75px 2.75px #00000025;
+            border: 2px solid $green-main;
+            background-color: rgba(255, 255, 255, 0.3);
+            &__logo {
+                width: 408px;
+                height: auto;
+                object-fit: cover;
+            }
+            &__list {
+                width: 375px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 15px;
+                &__item {
+                    color: $green-main;
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+            }
+        }
+        &__bottom {
+            position: relative;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__animation {
+                width: 432px;
+                height: 480px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                border-radius: 32px;
+                overflow: hidden;
+                position: relative;
+                box-shadow: 2.75px 2.75px 2.75px #00000025;
+                border: 2px solid $green-main;
+                background-color: rgba(255, 255, 255, 0.3);
+                &__gif {
+                    width: 360px;
+                    height: auto;
+                    object-fit: cover;
+                }
+            }
+            &__image {
+                width: 432px;
+                height: 480px;
+                text-align: right;
+                border-radius: 32px;
+                position: relative;
+                box-shadow: 2.75px 2.75px 2.75px #00000025;
+                background: url(../images/mountains-quote.webp);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                padding: 35px 35px 50px 60px;
+                &__text {
+                    font-size: 24px;
+                    font-weight: 200;
+                    font-family: 'Inter-Extralight';
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

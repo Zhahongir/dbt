@@ -1,0 +1,42 @@
+.author {
+    position: relative;
+    margin-top: 50px;
+    &__wrap {
+        position: relative;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        z-index: 10;
+        &__photo {
+            width: 437px;
+            height: 505px;
+            object-fit: cover;
+            border-radius: 32px;
+            box-shadow: 2.75px 2.75px 2.75px #00000025;
+        }
+        .statics__wrap__descr {
+            width: 437px;
+            height: 505px;
+            margin-top: 0;
+        }
+        .list {
+            margin-top: 20px;
+            padding-left: 25px;
+        }
+    }
+    .shape-5 {
+        position: absolute;
+        right: 0px;
+        top: -750px;
+        z-index: 2;
+        pointer-events: none;
+    }
+    .shape-6 {
+        position: absolute;
+        left: 100px;
+        top: -500px;
+        z-index: 2;
+        pointer-events: none;
+    }
+}

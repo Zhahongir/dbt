@@ -1,0 +1,191 @@
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+    .container-product {
+        width: 540px;
+    }
+    .promo__wrap__middle {
+        margin-right: 0;
+        transform: translateY(-96px);
+    }
+    .promo__wrap__middle__title {
+        font-size: 58px;
+    }
+    .promo__wrap__up {
+        margin-right: 165px;
+    }
+    .promo__wrap__up__quote__text {
+        font-size: 16px;
+    }
+    .promo__wrap__up__photo {
+        width: 120px;
+        height: 100%;
+    }
+    .promo__wrap__up__quote__author {
+        margin-bottom: 5px;
+    }
+    .promo__wrap__middle__photo {
+        transform: translateY(-13px);
+    }
+    .promo__wrap__bottom {
+        transform: translateY(-100px);
+    }
+    .promo__wrap__bottom__titles__main {
+        font-size: 36px;
+    }
+    .promo__wrap__bottom__titles__name {
+        font-size: 28px;
+        transform: translateX(0px);
+    }
+    .promo__wrap__bottom__info {
+        margin-right: 0;
+    }
+    .promo__wrap .form__button {
+        transform: translateY(-50px);
+    }
+    .title {
+        font-size: 28px;
+    }
+    .statics__wrap__descr__text {
+        font-size: 14px;
+    }
+    .statics__wrap__advantages {
+        flex-direction: column;
+    }
+    .statics__wrap__advantages__left {
+        width: 100%;
+    }
+    .statics__wrap__advantages__left__list {
+        padding-right: 25px;
+        row-gap: 20px;
+    }
+    .statics__wrap__advantages__right {
+        width: 100%;
+        margin-top: 40px;
+        padding-left: 25px;
+    }
+    .statics__wrap__advantages__right .title__border {
+        border-top: 2px solid $green-main;
+        border-top-right-radius: 32px;
+    }
+    .statics__wrap__advantages__right .list {
+        width: 100% !important;
+    }
+    .dbt__wrap__content {
+        flex-direction: column;
+    }
+    .dbt__wrap__content__logo {
+        width: 360px;
+    }
+    .dbt__wrap__content__list {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .dbt__wrap__bottom {
+        flex-direction: column;
+    }
+    .dbt__wrap__bottom__animation {
+        width: 100%;
+        height: 350px;
+    }
+    .dbt__wrap__bottom__animation__gif {
+        width: 350px;
+    }
+    .dbt__wrap__bottom__image {
+        width: 100%;
+        margin-top: 25px;
+        height: 350px;
+    }
+    .benefit__wrap {
+        flex-direction: column;
+    }
+    .benefit__wrap__info {
+        width: 100%;
+    }
+    .benefit__wrap__animation {
+        margin-top: 25px;
+        width: 100%;
+        height: max-content;
+    }
+    .program__wrap__header__image {
+        width: 100%;
+    }
+    .program__wrap__header__head {
+        width: 100%;
+    }
+    .program__wrap__header__head__item {
+        font-size: 14px;
+    }
+    .author__wrap {
+        flex-direction: column;
+    }
+    .author__wrap__photo {
+        width: 100%;
+        height: 100%;
+    }
+    .author__wrap .statics__wrap__descr {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .author__wrap .list {
+        padding-right: 25px;
+    }
+    .form__wrap {
+        flex-direction: column;
+    }
+    .form__wrap .statics__wrap__descr {
+        width: 100%;
+    }
+    .form__wrap__data {
+        width: 100%;
+        margin-top: 20px;
+        height: max-content;
+        padding-bottom: 35px;
+    }
+    .form {
+        padding-bottom: 50px;
+    }
+    .product__wrap {
+        flex-direction: column;
+    }
+    .product__cover {
+        height: 150px;
+    }
+    .nav__wrap__logo {
+        width: 200px;
+    }
+    .nav__wrap__home {
+        width: 220px;
+        font-size: 14px;
+    }
+    .nav__wrap {
+        row-gap: 25px;
+    }
+    .product {
+        height: max-content;
+        margin-top: 0;
+        padding-bottom: 100px;
+    }
+    .product__wrap__image {
+        width: 70%;
+    }
+    .product__wrap__content {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .product__wrap__content__button {
+        font-size: 16px;
+    }
+    .product__wrap__content__price {
+        font-size: 18px;
+    }
+    .product__bg {
+        display: none;
+    }
+    .product__bg-mob {
+        display: block;
+        width: 237%;
+        height: 1600px;
+    }
+}

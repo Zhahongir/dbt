@@ -1,0 +1,132 @@
+.form {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    z-index: 10;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        z-index: 10;
+        .statics__wrap__descr {
+            width: 437px;
+            margin-top: 0;
+            .list {
+                padding-left: 25px;
+                padding-right: 21px;
+                margin-top: 20px;
+                span {
+                    font-family: 'Inter-Bold';
+                    font-weight: 700;
+                }
+            }
+        }
+        &__data {
+            position: relative;
+            width: 437px;
+            padding: 35px 32px 0 32px;
+            border-radius: 32px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 2.75px 2.75px 2.75px #00000025;
+            border: 2px solid $green-main;
+            background-color: rgba(255, 255, 255, 0.3);
+            display: flex;
+            flex-direction: column;
+            row-gap: 34px;
+            align-items: center;
+            &__input {
+                width: 100%;
+                box-shadow: 2.75px 2.75px 2.75px #00000025;
+                border: 2px solid $green-main;
+                background-color: rgba(255, 255, 255, 0.3);
+                border-radius: 32px;
+                text-align: center;
+                font-size: 16px;
+                font-family: 'BonaNova';
+                font-weight: 400;
+                padding: 18px 32px;
+            }
+            &__textarea {
+                width: 100%;
+                box-shadow: 2.75px 2.75px 2.75px #00000025;
+                border: 2px solid $green-main;
+                background-color: rgba(255, 255, 255, 0.3);
+                border-radius: 32px;
+                text-align: center;
+                font-size: 16px;
+                font-family: 'BonaNova';
+                font-weight: 400;
+                padding: 18px 32px;
+                height: 80px;
+                resize: none;
+            }
+            &__button {
+                width: 100%;
+                background-color: $green-main;
+                font-size: 16px;
+                font-weight: 300;
+                color: #fff;
+                border-radius: 32px;
+                box-shadow: 2.75px 2.75px 2.75px #00000025;
+                transition: 0.3s linear;
+                padding: 18px 32px;
+                cursor: pointer;
+                border: none;
+                &:hover {
+                    background-color: $green-add;
+                }
+            }
+            &__checkbox {
+                display: flex;
+                width: 100%;
+                position: relative;
+                input {
+                    opacity: 0;
+                }
+                input+label::before {
+                    content: '';
+                    display: inline-block;
+                    width: 18px;
+                    height: 18px;
+                    border: 2px solid $green-main;
+                    border-radius: 4px;
+                    position: absolute;
+                    left: 0;
+                }
+                input::before {
+                    content: "";
+                    width: 18px;
+                    height: 18px;
+                    border: 1px solid $green-main;
+                    border-radius: 4px;
+                }
+                input:checked+label::before {
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    background-color: $green-main;
+                    background-image: url('../icons/checkbox.svg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                  }
+                label {
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: $green-main;
+                    cursor: pointer;
+                    margin-left: 20px;
+                    a {
+                        text-decoration: underline;
+                        transition: 0.3s linear;
+                        color: $green-main;
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

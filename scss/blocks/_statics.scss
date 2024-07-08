@@ -1,0 +1,96 @@
+.statics {
+    position: relative;
+    padding-top: 30px;
+    &__wrap {
+        position: relative;
+        z-index: 10;
+        &__descr {
+            position: relative;
+            box-shadow: 2.75px 2.75px 2.75px #00000025;
+            width: 100%;
+            border: 2px solid $green-main;
+            padding-left: 25px;
+            padding-bottom: 25px;
+            border-radius: 32px;
+            margin-top: 30px;
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.3);
+            &__text {
+                width: 100%;
+                margin-top: 25px;
+                padding-right: 25px;
+                font-weight: 300;
+                font-size: 16px;
+                color: $green-main;
+                span {
+                    font-family: 'Inter-Semibold';
+                    font-weight: 600;
+                }
+            }
+        }
+        &__advantages {
+            width: 100%;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 32px;
+            border-radius: 32px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 2.75px 2.75px 2.75px #00000025;
+            border: 2px solid $green-main;
+            background-color: rgba(255, 255, 255, 0.3);
+            &__left {
+                width: 413px;
+                position: relative;
+                padding-left: 25px;
+                .title__border {
+                    border-top-right-radius: 32px;
+                    border-top: 1px solid $green-main;
+                    transform: translateY(-1px);
+                }
+                &__list {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 25px;
+                    row-gap: 35px;
+                    &__item {
+                        width: 100%;
+                        background-color: $green-add;
+                        border-radius: 68px;
+                        text-align: center;
+                        padding: 10px 32px 10px 32px;
+                        font-size: 16px;
+                        font-weight: 300;
+                        color: #fff;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            &__right {
+                width: 413px;
+                position: relative;
+                .list {
+                    width: 393px !important;
+                    padding-right: 30px;
+                    margin-left: 20px;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+    .shape-1 {
+        position: absolute;
+        left: 50px;
+        top: -200px;
+        z-index: 2;
+        pointer-events: none;
+    }
+    .shape-2 {
+        position: absolute;
+        right: 0px;
+        top: -250px;
+        z-index: 2;
+        pointer-events: none;
+    }
+}

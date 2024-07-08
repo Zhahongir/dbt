@@ -1,0 +1,100 @@
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+    .container-product {
+        width: 720px;
+    }
+    .promo__wrap__middle__title {
+        font-size: 75px;
+    }
+    .statics__wrap__advantages__left {
+        width: 350px;
+    }
+    .statics__wrap__advantages__right {
+        width: 350px;
+    }
+    .title__border {
+        font-size: 18px;
+    }
+    .statics__wrap__advantages__left__list__item {
+        font-size: 15px;
+    }
+    .statics__wrap__advantages__left__list {
+        row-gap: 36px;
+    }
+    .dbt__wrap__content__logo {
+        width: 325px;
+        height: 100%;
+    }
+    .dbt__wrap__content__list {
+        width: 325px;
+    }
+    .dbt__wrap__content {
+        padding: 50px 25px;
+        align-items: center;
+    }
+    .dbt__wrap__bottom__animation {
+        width: 350px;
+        height: 430px;
+    }
+    .dbt__wrap__bottom__image {
+        width: 350px;
+        height: 430px;
+    }
+    .dbt__wrap__bottom__animation__gif {
+        width: 100%;
+        height: auto;
+    }
+    .benefit .shape-3 {
+        width: 25%;
+        top: -300px;
+    }
+    .benefit__wrap__info {
+        width: 350px;
+    }
+    .benefit__wrap__animation {
+        width: 350px;
+        height: 677px;
+    }
+    .benefit__wrap__animation__gif {
+        height: auto;
+    }
+    .program__wrap__header__image {
+        width: 650px;
+    }
+    .program__wrap__header__head {
+        width: 650px;
+    }
+    .program__wrap__header {
+        padding: 35px 25px 40px 25px;
+    }
+    .author__wrap__photo {
+        width: 350px;
+        height: 539px;
+    }
+    .author__wrap .statics__wrap__descr {
+        width: 350px;
+        height: max-content;
+    }
+    .form__wrap .statics__wrap__descr {
+        width: 350px;
+    }
+    .form__wrap__data {
+        width: 350px;
+    }
+    .product__wrap__image {
+        width: 350px;
+        height: 100%;
+    }
+    .product__wrap__content {
+        width: 350px;
+    }
+    .product__bg {
+        width: 200%;
+    }
+    html {
+        position: relative;
+        overflow-x: hidden;
+    }
+}

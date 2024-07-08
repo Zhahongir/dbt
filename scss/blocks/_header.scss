@@ -1,0 +1,59 @@
+.header {
+    position: fixed;
+    z-index: 100;
+    top: 25px;
+    right: 25px;
+    &__wrap {
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+        transition: 0.3s linear;
+        width: 55px;
+        &:hover {
+            width: max-content;
+        }
+        &:hover .header__wrap__item {
+            display: block;
+            opacity: 1;
+        }
+        &__item {
+            width: 208px;
+            background-color: $green-add;
+            padding: 10px 9px;
+            font-size: 15px;
+            font-family: 'BonaNova';
+            color: #fff;
+            font-weight: 400;
+            text-align: center;
+            border-radius: 100px;
+            box-shadow: 4px 4px 4px #00000025;
+            transition: 0.3s linear;
+            opacity: 0;
+            display: none;
+            &:hover {
+                background-color: $green-main;
+                box-shadow: none;
+            }
+        }
+        &__button {
+            width: 55px;
+            height: 55px;
+            border-radius: 100%;
+            background-color: $green-add;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: 0.3s linear;
+            box-shadow: 4px 4px 4px #00000025;
+            &:hover {
+                background-color: $green-main;
+                box-shadow: none;
+            }
+            &__icon {
+                width: 23px;
+                height: 32px;
+            }
+        }
+    }
+}
