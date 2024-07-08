@@ -1,3 +1,17 @@
+@media screen and (min-width: 1550px) {
+    .product__cover-big {
+        display: block;
+    }
+    .product__cover {
+        display: none;
+    }
+    .product__bg {
+        display: none;
+    }
+    .product {
+        height: max-content;
+    }
+}
 @media screen and (max-width: 1199px) {
     .statics .shape-1 {
         width: 50%;
